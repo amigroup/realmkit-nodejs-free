@@ -1,0 +1,20 @@
+{
+  "name": "realmkit-nodejs-free",
+  "version": "1.0.0",
+  "description": "Minimal Express + Keycloak starter: JWKS-verified JWTs done right",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node -r dotenv/config src/server.js",
+    "dev": "node --watch -r dotenv/config src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.0",
+    "jwks-rsa": "^3.1.0"
+  }
+}
