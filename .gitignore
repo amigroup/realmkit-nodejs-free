@@ -4,3 +4,6 @@ node_modules/
 .idea/
 logs
 *.log
+
+# Local issue tracker (see the workspace CLAUDE.md)
+.scratch/
