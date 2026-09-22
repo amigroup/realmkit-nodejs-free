@@ -5,5 +5,5 @@ node_modules/
 logs
 *.log
 
-# Local issue tracker (see the workspace CLAUDE.md)
+# Local issue tracker
 .scratch/
